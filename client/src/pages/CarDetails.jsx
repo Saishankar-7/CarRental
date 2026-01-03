@@ -56,7 +56,7 @@ const CarDetails = () => {
            <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{duration:0.2,duration:0.5}}
+            transition={{delay:0.2,duration:0.5}}
             className='space-y-6'>
             <div>
               <h1 className='text-3xl font-bold'>{car.brand} {car.model}</h1>
